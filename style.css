@@ -180,7 +180,8 @@ nav.scrolled {
 
 /*service section*/
 .service {
-    padding: 100px 0;
+    margin-top: 30px;
+    padding: 40px 0;
     background: rgba(255, 255, 255, 0.02);
 }
 
