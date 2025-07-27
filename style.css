@@ -178,25 +178,31 @@ nav.scrolled {
     background: rgba(255, 255, 255, 0.02);
 }
 
-.skills-grid {
+/*service section*/
+.service {
+    padding: 100px 0;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.service-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
 }
 
-.skill-card {
+.service-card {
     padding: 1.5rem;
     border-radius: 15px;
     text-align: center;
     transition: transform 0.3s ease;
 }
 
-.skill-card:hover {
+.service-card:hover {
     transform: translateY(-10px);
 }
 
-.skill-icon {
+.service-icon {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     background: linear-gradient(45deg, var(--primary), var(--secondary));
